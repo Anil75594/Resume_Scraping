@@ -5,7 +5,7 @@ from serpapi import GoogleSearch
 
 # Function to search multiple resumes using SerpAPI
 def search_resumes(name):
-    api_key = "39aa2ab81fdb2549a66e7bba87cbe8f25ec21977f374a8140f3df5dfe4930a9d"  # Replace with your actual SerpAPI key
+    api_key = "API_KEY"  # Replace with your actual SerpAPI key
     search_query = f"{name} resume filetype:pdf"
 
     params = {
